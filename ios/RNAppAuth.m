@@ -1,10 +1,8 @@
 #import "RNAppAuth.h"
-//#import <AppAuth/AppAuth.h>
+#import <AppAuth/AppAuth.h>
 #import <React/RCTLog.h>
 #import <React/RCTConvert.h>
 #import "RNAppAuthAuthorizationFlowManager.h"
-
-@import AppAuth;
 
 @interface RNAppAuth()<RNAppAuthAuthorizationFlowManagerDelegate> {
     id<OIDExternalUserAgentSession> _currentSession;
